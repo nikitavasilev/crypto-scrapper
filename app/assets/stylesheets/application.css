@@ -1,0 +1,139 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #E0EAFC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  min-height: 100vh;
+  position: relative;
+  margin: 0;
+  padding-bottom: 120px;
+}
+
+.my-own {
+  background: #41295a;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background: #41295a;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  color: #fff;
+}
+
+.footer-copyright a {
+  color: #fff;
+  text-decoration: none!important;
+}
+.footer-copyright a:visited {
+  color: #fff;
+}
+
+.footer-copyright a:hover {
+  color: #cf556c;
+}
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  opacity: 0.6;
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background: #41295a;;
+  color: white;
+  padding: 12px 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #fff;
+  opacity: 0.6;
+  color: #000;
+  border: 1px solid #000;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 20px;
+}
+
+.margin-header {
+  margin-top: 50px;
+}
+
+.margin-header-bis {
+margin-top: 150px;
+}
+
+.left {
+  margin-left: 30px;
+}
+
+blockquote p::before {
+  content: '\201C';
+}
+
+blockquote p::after {
+  content: '\201D';
+}
+
+.navbar-brand {
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px;
+}
+
+.btn-hover {
+  background: #41295a;
+  color: #fff;
+}
+
+.btn-hover:hover {
+  background: #fff;
+  color: #41295a;
+}
+
+.btn-logout {
+  background: #41295a;
+}
+
+.btn-logout:hover {
+  background: #e53935;
+  color: #fff;
+}
+
+.btn-width {
+  width: 200px;
+}

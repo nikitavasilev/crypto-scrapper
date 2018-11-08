@@ -1,0 +1,12 @@
+<div class='container margin-header-bis text-center'>
+  <h1 class='text-center margin-header'>Pick a cryptocurrency</h1>
+    <%= form_tag do %>
+      <%= select_tag "name", options_for_select(@crypto.keys.sort), class: "form-control margin-header"%>
+      <%= submit_tag "OK" , class: "btn btn-primary btn-width"%>
+    <% end %>
+    <% if @name %>
+    <div class="margin-header">
+      <h4>The stock market price of <i><%= @name %></i> is <strong><%= @crypto[@name] %></strong>.</h4>
+    <div>
+    <% end %>
+</div>
